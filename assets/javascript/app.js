@@ -43,3 +43,15 @@ $.ajax({url: url, method: 'GET',}).done(function(result) {
 	
 
 });
+
+	$('#searchBtn').on('click', function(){
+	searchTermVar = document.getElementById('searchTerm').value
+	searchNumVar = document.getElementById('searchNum').value
+	startYearVar = document.getElementById('startYear').value
+	endYearVar = document.getElementById('endYear').value
+	console.log(searchTermVar)
+	console.log(searchNumVar)
+	console.log(startYearVar)
+	console.log(endYearVar)
+	
+	})
