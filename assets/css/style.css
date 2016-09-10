@@ -1,0 +1,22 @@
+body {
+    background-image: url("../images/background.jpg")!important;
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: auto 0;
+    font-size: 18px;
+    text-shadow: 20px;
+
+}
+
+* {
+  	position: relative;
+    box-sizing: border-box;
+}
+
+.panel > .panel-heading {
+    text-transform: uppercase;
+    background-color: blue;
+}
